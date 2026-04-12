@@ -6,6 +6,6 @@ Parent Project of Ginkgo for Spring Cloud
 
 | group                     | artifact                          | version    |
 |:--------------------------|:----------------------------------|:-----------|
-| org.springframework.boot  | spring-boot-starter-parent        | 3.5.0      |
-| org.springframework.cloud | spring-cloud-dependencies         | 2025.0.0   |
-| com.alibaba.cloud         | spring-cloud-alibaba-dependencies | 2023.0.3.3 |
+| org.springframework.boot  | spring-boot-starter-parent        | 4.0.5      |
+| org.springframework.cloud | spring-cloud-dependencies         | 2025.1.1   |
+| com.alibaba.cloud         | spring-cloud-alibaba-dependencies | 2023.1.0.0 |
