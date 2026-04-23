@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.5</version>
+        <version>4.0.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.aurifolia.cloud</groupId>
@@ -64,12 +64,12 @@
 
     <distributionManagement>
         <repository>
-            <id>maven-release-local</id>
-            <url>http://localhost:8081/repository/maven-releases/</url>
+            <id>nexus-releases</id>
+            <url>http://localhost:49155/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>maven-snapshot-local</id>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
+            <id>nexus-snapshots</id>
+            <url>http://localhost:49155/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
