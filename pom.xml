@@ -65,11 +65,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:49155/repository/maven-releases/</url>
+            <url>http://localhost:49153/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://localhost:49155/repository/maven-snapshots/</url>
+            <url>http://localhost:49153/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
